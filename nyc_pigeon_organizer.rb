@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   hash = {}
   data.each do |attributes, value|
     value.each do |value, array|
-      array.each do |array|
+      array.each do |name|
         if hash[name] == nil 
           hash[name] = {}
            hash[name][attributes] = []
